@@ -2,29 +2,30 @@
 @section('title', 'Crud Project')
 @section('create-register')
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/register.css">
     <div class="crud-form">
         <div class="content full-content">
-            <h3>Cliente</h3>
             <form action="/" method="POST" class="form">
-            @csrf
+                @csrf
                 <div class="user">
-                    <div class="three-inputs">
-                        <div class="inputs">
+                    <h3>Cliente</h3>
+                    <div class="four-inputs">
+                        <div class="input">
                             <label for="name">Nome</label>
                             <input type="text" name="name" id="name" required>
                         </div>
 
-                        <div class="inputs">
+                        <div class="input">
                             <label for="gender">Sexo</label>
                             <input type="text" name="gender" id="gender">
                         </div>
 
-                        <div class="inputs">
+                        <div class="input">
                             <label for="birth">Data de Nascimento</label>
                             <input type="date" name="birth" id="birth">
                         </div>
 
-                        <div class="inputs">
+                        <div class="input">
                             <label for="cpf">CPF</label>
                             <input type="text" name="cpf" id="cpf" required>
                         </div>

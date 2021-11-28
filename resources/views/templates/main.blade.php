@@ -33,7 +33,6 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/create-register">Criar novo Registro</a></li>
-                    <li><a href="/delete-register"></a></li>
                 </ul>
             </div>
         </div>

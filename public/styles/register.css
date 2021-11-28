@@ -1,0 +1,102 @@
+.full-content{
+    max-width: 1200px;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+.address h3{
+    margin-top: 1rem;
+}
+
+.four-inputs{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column; 
+}
+
+.four-inputs .input:nth-child(1){
+    flex: 2.2;
+    min-width: 441px;
+}
+
+.four-inputs .input:nth-child(2){
+    flex: 1;
+    min-width: 195px;
+}
+
+.four-inputs .input:nth-child(3){
+    flex: 1;
+    min-width: 190px;
+}
+
+.four-inputs .input:nth-child(4){
+    flex: 1.13;
+}
+
+.three-inputs{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.three-inputs .input:nth-child(1){
+    flex: 1;
+}
+
+.three-inputs .input:nth-child(2){
+    flex: 1;
+}
+
+.three-inputs .input:nth-child(3){
+    flex: .5;
+}
+
+.two-inputs{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.9rem;
+}
+
+.two-inputs .input:nth-child(2){
+    width: 209px;
+}
+
+input[type=submit]{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #424242;
+}
+
+input[type=submit]:hover{
+    transition: .6s;
+    box-shadow: 5px 5px 12px #bb1414;
+}
+
+input[type=text],
+input[type=number],
+input[type=date]{
+    border: none;
+    border-bottom: 3px solid #424242;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=date]:focus{
+    outline: none;
+    border: none;
+    transition: .8s;
+    border-bottom: 2px solid #bb1414;
+}

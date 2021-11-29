@@ -10,4 +10,6 @@ class User extends Model
     use HasFactory;
 
     protected $dates = ['birth'];
+
+    protected $guarded = [];
 }

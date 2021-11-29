@@ -1,0 +1,31 @@
+/* List */
+.list-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #bb1414;
+}
+
+/* List Title */
+.info h5{
+    font-size: 1.185rem;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button{
+    font-size: 1.125rem;
+    color: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #bb1414;
+    box-shadow: 0 3px 0 #bb1414;
+    transition: .3s;
+}

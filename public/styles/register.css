@@ -1,24 +1,14 @@
+/* Container */
 .full-content{
     max-width: 1200px;
+    padding: 2rem 0;
 }
 
-label{
-    margin-top: 1rem;
-}
-
-.address h3{
-    margin-top: 1rem;
-}
-
+/* User */
 .four-inputs{
     display: flex;
     justify-content: flex-start;
     gap: 3rem;
-}
-
-.input{
-    display: flex;
-    flex-direction: column; 
 }
 
 .four-inputs .input:nth-child(1){
@@ -38,6 +28,11 @@ label{
 
 .four-inputs .input:nth-child(4){
     flex: 1.13;
+}
+
+/* Address */
+.address h3{
+    margin-top: 1rem;
 }
 
 .three-inputs{
@@ -68,6 +63,17 @@ label{
     width: 209px;
 }
 
+/* General */
+label{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column; 
+}
+
 input[type=submit]{
     margin-top: 2rem;
     padding: 1rem;
@@ -78,6 +84,7 @@ input[type=submit]{
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 12px #424242;
+    cursor: pointer;
 }
 
 input[type=submit]:hover{
@@ -100,3 +107,5 @@ input[type=date]:focus{
     transition: .8s;
     border-bottom: 2px solid #bb1414;
 }
+
+/* End Style */

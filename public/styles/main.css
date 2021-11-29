@@ -1,0 +1,57 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #bb1414;
+    box-shadow: 0 3px 0 #bb1414;
+    transition: .3s;
+}
+
+/* Container and content predef */
+.container{
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header content */
+header.container{
+    width: 100%;
+    background-color: #bb1414;
+}
+
+/* Nav content */
+div.container.nav{
+    width: 100%;
+    background-color: grey;
+    padding: 1rem 0;
+}
+
+div.container.nav .content{
+    height: 30px;
+}
+
+div.container.nav .content .navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Style */

@@ -29,3 +29,7 @@ button:hover{
     box-shadow: 0 3px 0 #bb1414;
     transition: .3s;
 }
+
+thead tr{
+    text-align: center;
+}

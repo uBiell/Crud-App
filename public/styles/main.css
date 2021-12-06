@@ -20,11 +20,15 @@ a.nav-link:hover{
     transition: .3s;
 }
 
-.header{
+.container-fluid{
     background-color: #bb1414;
-    padding: 2rem;
+    
 }
 
-.container{
-    max-width: 1200px;
+i{
+    font-size: 30px;
+}
+
+footer div a i{
+    color: white;
 }

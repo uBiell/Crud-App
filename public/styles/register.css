@@ -37,13 +37,5 @@ input[type=date]:focus{
     gap: 3rem;
 }
 
-.content{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.container{
-    max-width: 1200px;
-}
 
 /* End Style */
